@@ -4,10 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+
+    <style>
+        #saludo {
+            font-size: 60px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+           
+        }
+        #saludo:hover {
+            font-size: 80px;
+            font-style: italic;
+            background-color: bisque;
+        }
+        #deportes {
+            font-style: italic;
+            font-size: 40px;
+        
+        }
+        #imagen {
+        
+            text-align: center;
+        }
+        .colorido {
+            color: rgb(228, 59, 59);
+        }
+    </style>
+
 </head>
 <body>
- <div style="color: blue;">
-    hola parce
- </div>   
+    <div id="saludo">
+        hola parce🫨 
+        <br>
+        <div id="imagen"> 
+            <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTbTGaBx6KCb-iliCmrEGj0MAS3m-g7_v0vBibzRCp321WVtvBw" width="20%" height="20%" alt="">
+        </div>
+    </div> 
+    <button type="button" onclick="alert('hello');" class="nes-btn is-error">error dele a la x</button> 
+    <div id="deportes" class="colorido">
+        basket 😍
+    </div>
+    <div class="colorido">
+        tegnologia
+    </div>
 </body>
 </html>
