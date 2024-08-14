@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+    <title>juego</title>
+</head>
+<body>
+  
+
+    <style>
+        .image-button {
+            display: inline-block;
+            border: 2px solid #000;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .image-button img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .image-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .image-button:active {
+            transform: translateY(2px);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .inicio {
+            text-align: center ;
+
+            
+        }
+
+        .boton{
+height: 100px;
+width: 100px;
+        }
+
+        
+
+
+    </style>
+
+
+
+    <div class="inicio">
+
+
+        <div> <!--Opciones bot-->
+            <div class="image-button">  <img src="imagenes/papel.jpg" id="papel_bot" alt=""> </div>
+            <div class="image-button">  <img src="imagenes/piedra.jpg" id="piedra_bot" alt=""> </div>
+            <div class="image-button">  <img src="imagenes/tijera.jpg" id="tijera_bot" alt=""> </div>
+
+        </div>
+
+        <div> <!--Opciones humano-->
+            <div class="image-button"> <img src="imagenes/papel.jpg" id="papel" alt=""> </div>
+            <div class="image-button">  <img src="imagenes/piedra.jpg" id="piedra" alt=""> </div>
+            <div class="image-button">  <img src="imagenes/tijera.jpg" id="tijera" alt=""> </div>
+        </div>
+        
+        <div >
+            
+         
+            <button id="boton_inicio" type="button" class="boton nes-btn is-success">inicio</button> 
+        </div>
+        <i class="nes-mario"></i>
+        <i class="nes-ash"></i>
+        <i class="nes-pokeball"></i>
+    </div>  
+    
+
+
+
+
+
+
+
+
+
+
+
+    <script src="newplay.js"></script>
+ 
+</body>
+</html>
