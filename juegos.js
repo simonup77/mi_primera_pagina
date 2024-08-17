@@ -58,3 +58,10 @@ saludo();
 sumar(6,4);
 dividir(2,0);
 multiplicar(0,7)
+
+
+
+
+
+
+
